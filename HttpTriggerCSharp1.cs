@@ -12,7 +12,7 @@ namespace Company.Function
 {
     public static class HttpTriggerCSharp1
     {
-        
+
         [FunctionName("HttpTriggerCSharp1")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
@@ -28,7 +28,7 @@ namespace Company.Function
 
             string responseMessage = string.IsNullOrEmpty(name)
                 ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                : $"Hello, {name}. This HTTP triggered function executed successfully.";
+                : $"Hello, {name}. This HTTP triggered function executed successfuly.";
 
             return new OkObjectResult(responseMessage);
         }
