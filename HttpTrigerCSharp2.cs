@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 namespace Company.Function
 {
-    public static class HttpTriggerCSharp1
+    public static class HttpTriggerCSharp2
     {
 
         [FunctionName("HttpTriggerCSharp2")]
